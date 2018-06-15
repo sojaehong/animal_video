@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:background="#f3b719"
+        android:padding="7dp">
+
+        <fragment
+            android:id="@+id/fragment_you_tube"
+            android:name="com.google.android.youtube.player.YouTubePlayerSupportFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:background="#000000"
+            >
+            <TextView
+                android:id="@+id/txt_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="영상이름"
+                android:textColor="#f3b719"
+                android:gravity="center"/>
+
+            <ImageView
+                android:id="@+id/image_favorite"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="26dp"
+                android:layout_weight="0.5"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_favorite_black_24dp"
+                />
+
+        </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/list_you_tube"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#ffffff"
+            android:layout_weight="1.5"
+            >
+
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme">
+    <include layout="@layout/toolbar"></include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:id="@+id/layout_player"
+            android:layout_width= "match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:visibility="gone">
+        <fragment
+            android:id="@+id/fragment_favorite"
+            android:name="com.google.android.youtube.player.YouTubePlayerSupportFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </fragment>
+    </LinearLayout>
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            android:text="영상이름"
+            android:textColor="#f3b719"
+            android:gravity="center"
+            android:visibility="gone"/>
+
+        <ListView
+            android:id="@+id/recycler_favorite"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="#ffffff"
+            android:visibility="gone">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/txt_no_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="보관된 영상이 없습니다."
+            android:textColor="#f3b719"
+            android:background="#ffffff"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+
+</LinearLayout>

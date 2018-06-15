@@ -1,0 +1,256 @@
+{
+  "animal": [
+    {
+      "carnivores": [
+        {
+          "title": "강아지",
+          "search": "심쿵 강아지"
+        },
+        {
+          "title": "거북이",
+          "search": "동물 거북이"
+        },
+        {
+          "title": "고래",
+          "search": "동물 고래"
+        },
+        {
+          "title": "고양이",
+          "search": "심쿵 고양이"
+        },
+        {
+          "title": "낙타",
+          "search": "동물 낙타"
+        },
+        {
+          "title": "늑대",
+          "search": "동물 늑대"
+        },
+        {
+          "title": "독수리",
+          "search": "동물 독수리"
+        },
+        {
+          "title": "돌고래",
+          "search": "동물 돌고래"
+        },
+        {
+          "title": "랫서팬더",
+          "search": "동물 랫서팬더"
+        },
+        {
+          "title": "매",
+          "search": "동물 매"
+        },
+        {
+          "title": "바다 표범",
+          "search": "동물 바다 표범"
+        },
+        {
+          "title": "뱀",
+          "search": "동물 뱀"
+        },
+        {
+          "title": "사자",
+          "search": "동물 사자"
+        },
+        {
+          "title": "살쾡이",
+          "search": "동물 살쾡이"
+        },
+        {
+          "title": "상어",
+          "search": "동물 상어"
+        },
+        {
+          "title": "수달",
+          "search": "동물 수달"
+        },
+        {
+          "title": "악어",
+          "search": "동물 악어"
+        },
+        {
+          "title": "올빼미",
+          "search": "동물 올빼미"
+        },
+        {
+          "title": "족제비",
+          "search": "동물 족제비"
+        },
+        {
+          "title": "치타",
+          "search": "동물 치타"
+        },
+        {
+          "title": "펭귄",
+          "search": "동물 펭귄"
+        },
+        {
+          "title": "표범",
+          "search": "동물 표범"
+        },
+        {
+          "title": "퓨마",
+          "search": "동물 퓨마"
+        },
+        {
+          "title": "하이에나",
+          "search": "동물 하이에나"
+        },
+        {
+          "title": "호랑이",
+          "search": "동물 호랑이"
+        }
+      ]
+    },
+    {
+      "herbivores": [
+        {
+          "title": "고라니",
+          "search": "동물 고라니"
+        },
+        {
+          "title": "기린",
+          "search": "동물 기린"
+        },
+        {
+          "title": "낙타",
+          "search": "동물 낙타"
+        },
+        {
+          "title": "날다람쥐",
+          "search": "동물 날다람쥐"
+        },
+        {
+          "title": "다람쥐",
+          "search": "동물 다람쥐"
+        },
+        {
+          "title": "당나귀",
+          "search": "동물 당나귀"
+        },
+        {
+          "title": "말",
+          "search": "동물 말"
+        },
+        {
+          "title": "물소",
+          "search": "동물 물소"
+        },
+        {
+          "title": "병아리",
+          "search": "동물 병아리"
+        },
+        {
+          "title": "사슴",
+          "search": "동물 사슴"
+        },
+        {
+          "title": "소",
+          "search": "동물 소"
+        },
+        {
+          "title": "슈가글라이더",
+          "search": "동물 슈가글라이더"
+        },
+        {
+          "title": "양",
+          "search": "동물 양"
+        },
+        {
+          "title": "염소",
+          "search": "동물 염소"
+        },
+        {
+          "title": "청솔모",
+          "search": "동물 청솔모"
+        },
+        {
+          "title": "캥거루",
+          "search": "동물 캥거루"
+        },
+        {
+          "title": "코끼리",
+          "search": "동물 코끼리"
+        },
+        {
+          "title": "코뿔소",
+          "search": "동물 코뿔소"
+        },
+        {
+          "title": "코알라",
+          "search": "동물 코알라"
+        },
+        {
+          "title": "토끼",
+          "search": "동물 토끼"
+        },
+        {
+          "title": "팬더",
+          "search": "동물 팬더"
+        },
+        {
+          "title": "하마",
+          "search": "동물 하마"
+        },
+        {
+          "title": "햄스터",
+          "search": "동물 햄스터"
+        }
+      ]
+    },
+    {
+      "omnivore": [
+        {
+          "title": "고릴라",
+          "search": "동물 고릴라"
+        },
+        {
+          "title": "고슴도치",
+          "search": "동물 고슴도치"
+        },
+        {
+          "title": "곰",
+          "search": "동물 곰"
+        },
+        {
+          "title": "너구리",
+          "search": "동물 너구리"
+        },
+        {
+          "title": "돼지",
+          "search": "동물 돼지"
+        },
+        {
+          "title": "미니피그",
+          "search": "동물 미니피그"
+        },
+        {
+          "title": "사막 여우",
+          "search": "동물 사막 여우"
+        },
+        {
+          "title": "스컹크",
+          "search": "동물 스컹크"
+        },
+        {
+          "title": "여우",
+          "search": "동물 여우"
+        },
+        {
+          "title": "오소리",
+          "search": "동물 오소리"
+        },
+        {
+          "title": "원숭이",
+          "search": "동물 원숭이"
+        },
+        {
+          "title": "쥐",
+          "search": "동물 쥐"
+        }
+      ]
+    }
+  ]
+}
